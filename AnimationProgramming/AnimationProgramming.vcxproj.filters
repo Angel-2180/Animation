@@ -1,0 +1,122 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="LibMaths">
+      <UniqueIdentifier>{02d0733e-0881-49af-90f6-10ebecb4dfa5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LibMaths\FLM">
+      <UniqueIdentifier>{f7f41499-fd32-4cb6-8247-ea46c881dd16}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LibMaths\LM">
+      <UniqueIdentifier>{5b4be0cc-2fee-47e8-91b5-161a15bef43c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Engine.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Simulation.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MySimulation.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MyBones.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="LibMaths\Utilities.h">
+      <Filter>LibMaths</Filter>
+    </ClInclude>
+    <ClInclude Include="LibMaths\Mat4\FMat4.hpp">
+      <Filter>LibMaths\FLM</Filter>
+    </ClInclude>
+    <ClInclude Include="LibMaths\Vec3\FVec3.hpp">
+      <Filter>LibMaths\FLM</Filter>
+    </ClInclude>
+    <ClInclude Include="LibMaths\Vec4\FVec4.hpp">
+      <Filter>LibMaths\FLM</Filter>
+    </ClInclude>
+    <ClInclude Include="LibMaths\Quaternion\FQuat.hpp">
+      <Filter>LibMaths\FLM</Filter>
+    </ClInclude>
+    <ClInclude Include="LibMaths\Mat3\FMat3.hpp">
+      <Filter>LibMaths\FLM</Filter>
+    </ClInclude>
+    <ClInclude Include="LibMaths\Mat2\Mat2.h">
+      <Filter>LibMaths\LM</Filter>
+    </ClInclude>
+    <ClInclude Include="LibMaths\Mat3\Mat3.h">
+      <Filter>LibMaths\LM</Filter>
+    </ClInclude>
+    <ClInclude Include="LibMaths\Mat4\Mat4.h">
+      <Filter>LibMaths\LM</Filter>
+    </ClInclude>
+    <ClInclude Include="LibMaths\Quaternion\Quaternion.h">
+      <Filter>LibMaths\LM</Filter>
+    </ClInclude>
+    <ClInclude Include="LibMaths\Vec2\Vec2.h">
+      <Filter>LibMaths\LM</Filter>
+    </ClInclude>
+    <ClInclude Include="LibMaths\Vec3\Vec3.h">
+      <Filter>LibMaths\LM</Filter>
+    </ClInclude>
+    <ClInclude Include="LibMaths\Vec4\Vec4.h">
+      <Filter>LibMaths\LM</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationProgramming.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MySimulation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyBones.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="LibMaths\Mat4\FMat4.cpp">
+      <Filter>LibMaths\FLM</Filter>
+    </ClCompile>
+    <ClCompile Include="LibMaths\Vec3\FVec3.cpp">
+      <Filter>LibMaths\FLM</Filter>
+    </ClCompile>
+    <ClCompile Include="LibMaths\Vec4\FVec4.cpp">
+      <Filter>LibMaths\FLM</Filter>
+    </ClCompile>
+    <ClCompile Include="LibMaths\Quaternion\FQuat.cpp">
+      <Filter>LibMaths\FLM</Filter>
+    </ClCompile>
+    <ClCompile Include="LibMaths\Mat3\FMat3.cpp">
+      <Filter>LibMaths\FLM</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\Data\Resources\skinning.vs">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+</Project>

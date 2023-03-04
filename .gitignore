@@ -1,0 +1,83 @@
+# Build -----------------------------------------------------------------------
+
+### Output and Cache Directories ###
+
+
+# We want to version DLL as they are sometimes pre-deployed in isart projects
+# So we need to ignore everything in deployment folders except DLLs
+/Debug/*
+/Release/*
+/x64/*
+!*.dll
+
+# Exclude a bunch of other temporary directories
+# Build results
+*/[Dd]ebug/
+*/[Dd]ebugPublic/
+*/[Rr]elease/
+*/[Rr]eleases/
+*/x64/
+*/x86/
+*/[Ww][Ii][Nn]32/
+*/[Aa][Rr][Mm]/
+*/[Aa][Rr][Mm]64/
+*/bld/
+*/[Bb]in/
+*/[Oo]bj/
+*/[Ll]og/
+*/[Ll]ogs/
+
+# Don't forget this or deployed DLLs won't be seen by Git
+!/x64/*
+!/Debug/*
+!/Release/*
+
+.vs/
+.vscode/
+
+# Language --------------------------------------------------------------------
+
+### C++ ###
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.ilk
+*.idb
+*.pdb
+*.ipdb
+*.log
+*.tlog
+*.lastbuildstate
+*.recipe
+*.vcxproj.FileListAbsolute.txt
+
+# Comment this line if you want to version Wavefront .obj files.
+*.obj
+*.iobj
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+
+
+# Fortran module files
+*.mod
+
+
+# Don't ignore the libs vendored in the application !
+!external/**/*.lib
+!external/**/*.dll
+!external/**/*.so
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+!*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+AnimationProgramming/Debug/AnimationProgramming.ilk
